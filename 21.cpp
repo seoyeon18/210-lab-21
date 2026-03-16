@@ -82,7 +82,7 @@ public:
         head = nullptr;
         tail = nullptr;
     }
-    void push_back(int value)
+    void push_back(Goat  value)
     {
         Node *newNode = new Node(value);
         if (!tail) // if there's no tail, the list is empty
@@ -94,7 +94,7 @@ public:
             tail = newNode;
         }
     }
-    void push_front(int value)
+    void push_front(Goat  value)
     {
         Node *newNode = new Node(value);
         if (!head) // if there's no head, the list is empty
@@ -232,11 +232,10 @@ private:
             next = n;
         }
     };
-    
+
     Node *head;
     Node *tail;
 
-public:
     // constructor
     DoublyLinkedList()
     {
