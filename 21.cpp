@@ -40,6 +40,21 @@ public:
     }
 };
 
+//Add Goat class w random and parameter constructor!
+
+string Goat::names[Goat::SIZE] = {
+    "Junior", "Milo", "Daisy", "Pepper", "Coco",
+    "Bandit", "Luna", "Rocky", "Hazel", "Scout",
+    "Senior", "Godlike", "Old", "Mature", "Teen"
+};
+
+string Goat::colors[Goat::SIZE] = {
+    "Red", "Blue", "Green", "Yellow", "Gold",
+    "White", "Black", "Brown", "Gray", "Orange",
+    "Silver", "Purple", "Pink", "Mauve", "Tan"
+};
+
+
 
 const int MIN_NR = 10, MAX_NR = 99, MIN_LS = 5, MAX_LS = 20;
 class DoublyLinkedList
