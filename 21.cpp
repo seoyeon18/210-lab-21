@@ -221,16 +221,18 @@ class DoublyLinkedList
 private:
     struct Node
     {
-        int data;
+        Goat data;
         Node *prev;
         Node *next;
-        Node(int val, Node *p = nullptr, Node *n = nullptr)
+
+        Node(Goat val, Node *p = nullptr, Node *n = nullptr)
         {
             data = val;
             prev = p;
             next = n;
         }
     };
+    
     Node *head;
     Node *tail;
 
